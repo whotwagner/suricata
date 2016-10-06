@@ -1,0 +1,11 @@
+10/04/2016-11:03:06.749577  [**] [1:2012843:3] ET POLICY Cleartext WordPress Login [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.168.0.1:50650 -> 8.8.8.8:80
+10/04/2016-11:03:06.749577  [**] [1:2012888:3] ET POLICY Http Client Body contains pwd= in cleartext [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.168.0.1:50650 -> 8.8.8.1:80
+10/04/2016-11:13:27.634427  [**] [1:2522676:2719] ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 339 [**] [Classification: Misc Attack] [Priority: 2] {UDP} 212.69.166.153:123 -> 1.2.3.4:59740
+10/04/2016-12:17:46.482848  [**] [1:2200074:1] SURICATA TCPv4 invalid checksum [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.0.1:53182 -> 4.3.2.1:443
+10/04/2016-13:39:45.498785  [**] [1:2001595:10] ET CHAT Skype VOIP Checking Version (Startup) [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.168.0.1:40460 -> 15.14.13.12:80
+10/04/2016-17:10:54.833594  [**] [1:2200074:1] SURICATA TCPv4 invalid checksum [**] [Classification: (null)] [Priority: 3] {TCP} 10.12.32.6:50707 -> 42.42.42.42:443
+10/04/2016-18:30:45.866312  [**] [1:2200074:1] SURICATA TCPv4 invalid checksum [**] [Classification: (null)] [Priority: 3] {TCP} 10.12.32.6:44646 -> 9.1.2.1:443
+10/04/2016-22:18:08.728614  [**] [1:2100230:3] GPL CHAT Jabber/Google Talk Outgoing Traffic [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 192.168.0.1:33243 -> 8.4.3.7:5222
+10/04/2016-22:57:41.158897  [**] [1:2200074:1] SURICATA TCPv4 invalid checksum [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.0.1:52912 -> 1.2.3.22:80
+
+10/05/2016-09:25:01.186862  [**] [1:2001595:10] ET CHAT Skype VOIP Checking Version (Startup) [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.168.0.1:49491 -> 100.254.198.10:80
