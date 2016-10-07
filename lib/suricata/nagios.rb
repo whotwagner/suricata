@@ -31,25 +31,25 @@ class Nagios
 
 
 # @!attribute fast
-#   this attribute stores the Suricata::Logfile-object
+#  this attribute stores the Suricata::Logfile-object
 # @!attribute found_str
-#   this attribute stores the string found by search() in the Logfile-object
+#  this attribute stores the string found by search() in the Logfile-object
 # @!attribute search_str
-#   the search-pattern is stored in this attribute
+#  the search-pattern is stored in this attribute
 attr_reader :fast, :found_str, :search_str
 
 # @!attribute whitelist
-#   this whitelist can be used to exclude results from the search
+#  this whitelist can be used to exclude results from the search
 # @!attribute alertfile
-#   this alertfile(fast.log) is used for the search
+#  this alertfile(fast.log) is used for the search
 # @!attribute return_found
-#   this value is returned from search() on succes. (Default: 2)
+#  this value is returned from search() on succes. (Default: 2)
 # @!attribute return_notfound
-#   this value is returned from search() on failure (Default: 0)
+#  this value is returned from search() on failure (Default: 0)
 # @!attribute ack
-#   it is possible to acknowlege alerts, so that they will be 
-#   excluded from the next search. Use this member to set the acknowlege-file.
-#   Default ack-file is: /tmp/surack.lst
+#  it is possible to acknowlege alerts, so that they will be 
+#  excluded from the next search. Use this member to set the acknowlege-file.
+#  Default ack-file is: /tmp/surack.lst
 attr_accessor :whitelist, :alertfile, :return_found, :return_notfound, :ack
 
 # constructor 
