@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["code@toscom.at"]
 
   spec.summary       = %q{This gem offers classes to handle suricata logfiles.} 
-  spec.description   = %q{This gem offers classes to handle suricata logfiles. It ships with a nagios-plugin and an analysis tool. }
+  spec.description   = %q{This gem offers classes to handle suricata logfiles. It ships with a nagios-plugin. }
   spec.homepage      = "https://github.com/whotwagner/suricata"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
