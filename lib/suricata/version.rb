@@ -21,5 +21,5 @@
 
 module Suricata
 # yes, this is the version
-  VERSION = "0.1.0"
+  VERSION = "0.2.0"
 end

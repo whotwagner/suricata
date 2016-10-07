@@ -88,7 +88,7 @@ def runApp(args)
 		opt.on('-a','--alertfile ALERTFILE','alertfile(default: /var/log/suricata/fast.log)') { |o| @alertfile = o }
 		opt.on('-w','--whitelist WHITELISTFILE','whitelistfile') { |o| @whitelist = o }
 		opt.on('-e','--search STRING','searchstring') { |o| @search_str = o }
-		opt.on('-i','--interactive','interactive') { |o| interactive = o }
+		opt.on('-i','--interactive','interactive acknowleges') { |o| interactive = o }
 		opt.on('-k','--ackfile ACKFILE','ackfile(default: /tmp/surack.lst)') { |o| @ack = o }
 		help = opt.help
 	end.parse!(args)
