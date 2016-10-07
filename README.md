@@ -1,10 +1,10 @@
 # Suricata
 
 [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.png?v=103)](https://github.com/whotwagner/suricata/blob/master/LICENSE.txt)  
-[![Build Status](https://travis-ci.org/whotwagner/mindwave.svg?branch=master)](https://travis-ci.org/whotwagner/suricata)
-[![Inline docs](http://inch-ci.org/github/whotwagner/mindwave.svg?branch=master)](http://inch-ci.org/github/whotwagner/suricata)
-[![Code Climate](https://codeclimate.com/github/whotwagner/mindwave/badges/gpa.svg)](https://codeclimate.com/github/whotwagner/suricata)
-[![Gem Version](https://badge.fury.io/rb/mindwave.svg)](https://badge.fury.io/rb/mindwave)
+[![Build Status](https://travis-ci.org/whotwagner/suricata.svg?branch=master)](https://travis-ci.org/whotwagner/suricata)
+[![Inline docs](http://inch-ci.org/github/whotwagner/suricata.svg?branch=master)](http://inch-ci.org/github/whotwagner/suricata)
+[![Code Climate](https://codeclimate.com/github/whotwagner/suricata/badges/gpa.svg)](https://codeclimate.com/github/whotwagner/suricata)
+[![Gem Version](https://badge.fury.io/rb/suricata.svg)](https://badge.fury.io/rb/mindwave)
 
 
 This gem offers classes to handle suricata logfiles. It ships with a nagios-plugin.
