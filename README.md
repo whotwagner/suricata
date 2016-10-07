@@ -28,7 +28,7 @@ Or install it yourself as:
 
 ### Nagios-Plugin
 
-This gem comes with a Nagios-plugin to search suricata's fast-logfile for specific searchstrings.
+This gem comes with a Nagios-plugin to search suricata's fast-logfile for specific strings in the threat-description.
 
 ```
 Usage: check_suricata.rb [ -a alertfile ] [ -w whitelistfile ] -e searchstring
