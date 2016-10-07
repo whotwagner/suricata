@@ -54,7 +54,7 @@ def parse(string)
 
 	string = string.chomp
 
-	if string =~ /^\{(.+)\}\s+(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\:(\d+)\s+\-\>\s+(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\:(\d+)$/
+	if string =~ /^\{(.+)\}\s+(.+)\:(\d{1,5})\s+\-\>\s+(.+)\:(\d{1,5})$/
 		@proto = $1
 		@src = $2
 		@sport = $3.to_i
