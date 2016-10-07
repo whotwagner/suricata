@@ -51,6 +51,7 @@ attr_reader :fast, :found_str, :search_str
 #   Default ack-file is: /tmp/surack.lst
 attr_accessor :whitelist, :alertfile, :return_found, :return_notfound, :ack
 
+# constructor 
 # @param [String] alertfile path to the suricata-log-file(default: /var/log/suricata/fast.log)
 # @param [String] whitelist path to the whitelist(default: nil)
 def initialize(alertfile="/var/log/suricata/fast.log",whitelist=nil)
