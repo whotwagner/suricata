@@ -65,3 +65,7 @@ After checking out the repo, run `bin/setup` to install dependencies. Then, run 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/whotwagner/suricata.
 
+
+---
+
+Powered by [Toscom](http://www.toscom.at)
