@@ -28,14 +28,14 @@ require "suricata/fast"
 # and calls the logfile-parser
 class Logfile
 # @!attribute logfile
-#	path and filename of the logfile
+#   path and filename of the logfile
 # @!attribute parser
-#	parser to use(default: Suricata::Fast)
+#   parser to use(default: Suricata::Fast)
 attr_accessor :logfile, :parser
 # @!attribute file
-#	file-descriptor for logfile
+#   file-descriptor for logfile
 # @!attribute line
-#	current line of the logfile. set by readline and readline_parse
+#   current line of the logfile. set by readline and readline_parse
 attr_reader :file, :line
 
 # constructor
