@@ -33,7 +33,7 @@ class Fast
 # @!attribute description
 #  signature-description
 # @!attribute classification
-#  threat-classification
+#   threat-classification
 # @!attribute priority
 #  priority
 # @!attribute conn
