@@ -129,7 +129,7 @@ def acknowlege(str)
 	@fast.readline_parse do |fast_entry|
 		if fast_entry.description =~ /#{str}/
 			if not search_list("#{fast_entry.timestamp} #{fast_entry.id} #{fast_entry.conn}",@ack)
-			 	printf("Acknowlege this string:\n")
+			 	printf("Acknowlege the following entry:\n")
 			 	printf("#{fast_entry}\n")
 			 	printf("Acknowlege(y|n): ")
 			 	answer = STDIN.gets
