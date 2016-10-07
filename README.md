@@ -6,7 +6,6 @@
 [![Code Climate](https://codeclimate.com/github/whotwagner/suricata/badges/gpa.svg)](https://codeclimate.com/github/whotwagner/suricata)
 [![Gem Version](https://badge.fury.io/rb/suricata.svg)](https://badge.fury.io/rb/mindwave)
 
-
 This gem offers classes to handle suricata logfiles. It ships with a nagios-plugin.
 
 ## Installation
