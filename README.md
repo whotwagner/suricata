@@ -20,7 +20,35 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Nagios-Plugin
+
+This gem comes with a Nagios-plugin to search suricata's fast-logfile for specific searchstrings.
+
+```
+Usage: check_suricata.rb [ -a alertfile ] [ -w whitelistfile ] -e searchstring
+    -h, --help                       This help screen
+    -a, --alertfile ALERTFILE        alertfile(default: /var/log/suricata/fast.log)
+    -w, --whitelist WHITELISTFILE    whitelistfile
+    -e, --search STRING              searchstring
+    -i, --interactive                interactive
+    -k, --ackfile ACKFILE            ackfile(default: /tmp/surack.lst)
+```
+
+It is possible to interactively acknowlege search hits so that they will not occur on the next search:
+```
+check_suricata.rb -i -e "ET CHAT"                                                                                                                                               
+Acknowlege this string:
+10/04/2016-13:39:45.498785 [**] [1:2001595:10] ET CHAT Skype VOIP Checking Version (Startup) [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.168.0.1:40460 -> 15.14.13.12:80
+Acknowlege(y|n): y
+Acknowlege this string:
+10/05/2016-09:25:01.186862 [**] [1:2001595:10] ET CHAT Skype VOIP Checking Version (Startup) [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.168.0.1:49491 -> 100.254.198.10:80
+Acknowlege(y|n): n
+```
+
+## Documentation
+
+[rubydoc.info](http://www.rubydoc.info/github/whotwagner/suricata/master)
+
 
 ## Development
 

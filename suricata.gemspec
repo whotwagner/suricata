@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "suricata"
   spec.version       = Suricata::VERSION
   spec.authors       = ["Wolfgang Hotwagner"]
-  spec.email         = ["code@feedyourhead.at"]
+  spec.email         = ["code@toscom.at"]
 
   spec.summary       = %q{This gem offers classes to handle suricata logfiles.} 
   spec.description   = %q{This gem offers classes to handle suricata logfiles. It ships with a nagios-plugin and an analysis tool. }

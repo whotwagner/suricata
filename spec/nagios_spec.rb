@@ -45,6 +45,10 @@ describe Suricata do
 	end
   end
 
+  it 'runs acknowlege interactively' do
+  	o = Suricata::Nagios.new("misc/fast.log")
+	o.acknowlege("ET CHAT")
+  end
 
 
 end
