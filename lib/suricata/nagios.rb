@@ -37,6 +37,7 @@ class Nagios
 # @!attribute search_str
 #   the search-pattern is stored in this attribute
 attr_reader :fast, :found_str, :search_str
+
 # @!attribute whitelist
 #   this whitelist can be used to exclude results from the search
 # @!attribute alertfile
