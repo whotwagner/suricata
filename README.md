@@ -31,7 +31,7 @@ Or install it yourself as:
 This gem comes with a Nagios-plugin to search suricata's fast-logfile for specific strings in the threat-description.
 
 ```
-Usage: check_suricata.rb [ -a alertfile ] [ -w whitelistfile ] -e searchstring
+Usage: check_suricata [ -a alertfile ] [ -w whitelistfile ] -e searchstring
     -h, --help                       This help screen
     -a, --alertfile ALERTFILE        alertfile(default: /var/log/suricata/fast.log)
     -w, --whitelist WHITELISTFILE    whitelistfile
