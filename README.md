@@ -42,7 +42,7 @@ Usage: check_suricata [ -a alertfile ] [ -w whitelistfile ] -e searchstring
 
 It is possible to interactively acknowlege search hits so that they will not occur on the next search:
 ```
-check_suricata.rb -i -e "ET CHAT"                                                                                                                                               
+check_suricata -i -e "ET CHAT"                                                                                                                                               
 Acknowlege the following entry:
 10/04/2016-13:39:45.498785 [**] [1:2001595:10] ET CHAT Skype VOIP Checking Version (Startup) [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.168.0.1:40460 -> 15.14.13.12:80
 Acknowlege(y|n): y
