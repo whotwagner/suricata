@@ -71,6 +71,10 @@ def parse(string)
 
 end
 
+def getThreat
+	return [ @description, @priority, @classification ]
+end
+
 # this function converts the parsed entry back to string
 # @return [String] converted string
 def to_s

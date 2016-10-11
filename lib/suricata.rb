@@ -3,4 +3,5 @@ require "suricata/fast"
 require "suricata/connection"
 require "suricata/logfile"
 require "suricata/nagios"
+require "suricata/surilizer"
 
