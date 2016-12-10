@@ -89,6 +89,13 @@ def readline_parse
 end
 
 # this method reads a line of the logfile
+#
+# @example readline with a block
+#   log = Suricata::Logfile.new("misc/fast.log")
+#   log.readline do |n|
+#      puts n
+#   end
+#
 # @return [String] line current logfile entry
 # @return [Boolean] false when EOF reached
 # @yieldparam [String] @line current logfile entry
