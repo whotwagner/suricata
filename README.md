@@ -51,6 +51,13 @@ Acknowlege the following entry:
 Acknowlege(y|n): n
 ```
 
+### Logfile Analyzer
+
+This gem comes with a logfile analyzer for suricata's fast.log. It's very easy to use and meant for using as a daily cronjob
+```
+Usage: surilizer.rb <fast.log | fast.log* | fast.log fast.2.log fast.3.log.gz >
+```
+
 ## Documentation
 
 [rubydoc.info](http://www.rubydoc.info/github/whotwagner/suricata/master)
