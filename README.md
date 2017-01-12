@@ -55,9 +55,9 @@ Acknowlege(y|n): n
 
 This gem comes with a logfile analyzer for suricata's fast.log. It's very easy to use and meant for using as a daily cronjob
 ```
-Usage: surilizer.rb <fast.log | fast.log* | fast.log fast.2.log fast.3.log.gz >
+Usage: surilizer <fast.log | fast.log* | fast.log fast.2.log fast.3.log.gz >
 
-surilizer.rb misc/fast.log
+surilizer misc/fast.log
 
 ======== Suricata Log Analysis ========
 Events: 11
