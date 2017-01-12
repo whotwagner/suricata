@@ -56,6 +56,51 @@ Acknowlege(y|n): n
 This gem comes with a logfile analyzer for suricata's fast.log. It's very easy to use and meant for using as a daily cronjob
 ```
 Usage: surilizer.rb <fast.log | fast.log* | fast.log fast.2.log fast.3.log.gz >
+
+surilizer.rb misc/fast.log
+
+======== Suricata Log Analysis ========
+Events: 11
+Unique Sources: 3
+Unique Events: 6
+
+======== Unique Events =========
+
+PRIORITY	| DESCRIPTION 
+1		| ET POLICY Cleartext WordPress Login
+1		| ET POLICY Http Client Body contains pwd= in cleartext
+1		| ET CHAT Skype VOIP Checking Version (Startup)
+2		| ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 339
+3		| GPL CHAT Jabber/Google Talk Outgoing Traffic
+3		| SURICATA TCPv4 invalid checksum
+
+======== Eventy by source ========
+Source: 192.168.0.1
+	-> 8.8.8.8
+		1 x ET POLICY Cleartext WordPress Login Prio: 1
+	-> 8.8.8.1
+		1 x ET POLICY Http Client Body contains pwd= in cleartext Prio: 1
+	-> 4.3.2.1
+		1 x SURICATA TCPv4 invalid checksum Prio: 3
+	-> 15.14.13.12
+		1 x ET CHAT Skype VOIP Checking Version (Startup) Prio: 1
+	-> 8.4.3.7
+		1 x GPL CHAT Jabber/Google Talk Outgoing Traffic Prio: 3
+	-> 1.2.3.22
+		2 x SURICATA TCPv4 invalid checksum Prio: 3
+	-> 100.254.198.10
+		1 x ET CHAT Skype VOIP Checking Version (Startup) Prio: 1
+
+Source: 212.69.166.153
+	-> 1.2.3.4
+		1 x ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 339 Prio: 2
+
+Source: 10.12.32.6
+	-> 42.42.42.42
+		1 x SURICATA TCPv4 invalid checksum Prio: 3
+	-> 9.1.2.1
+		1 x SURICATA TCPv4 invalid checksum Prio: 3
+
 ```
 
 ## Documentation
