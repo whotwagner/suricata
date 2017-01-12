@@ -41,12 +41,14 @@ attr_reader :file, :line
 # constructor
 # @param [String] logfile path and filename of the logfile
 # @param [Boolean] autoopen calls open if true(default: true)
-def initialize(logfile,autoopen=true)
+def initialize(logfile,autoopen=true,file=nil)
 	@logfile = logfile
 	@parser = Suricata::Fast.new
 
 	if autoopen == true
 		open
+	else
+		@file = file if not file.nil?
 	end
 end
 

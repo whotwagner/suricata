@@ -30,8 +30,9 @@ class Surilizer
 attr_accessor :logfile
 attr_reader :src, :lines
 
-def initialize(file)
-	@logfile = Suricata::Logfile.new(file)
+def initialize(file = nil)
+
+	@logfile = Suricata::Logfile.new(file) if not file.nil?
 	@src = Hash.new
 	@dst = Hash.new
 	@lines = Counter.new
@@ -93,6 +94,7 @@ def result
 		end
 
 		end
+		puts ""
 	end
 
 end
