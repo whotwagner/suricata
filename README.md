@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository has been moved to [https://codeberg.org/whotwagner/suricata](https://codeberg.org/whotwagner/suricata). Please visit the new location for the latest updates.
+
 # Suricata
 
 [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.png?v=103)](https://github.com/whotwagner/suricata/blob/master/LICENSE.txt)  
